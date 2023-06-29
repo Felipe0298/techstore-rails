@@ -11,6 +11,12 @@
   </head>
 
   <body>
+    <h1>Techstore</h1>
+    
+    <% unless current_page?(products_path) %>
+      <%= link_to "Volver a inicio", products_path %>
+    <% end %>
+    
     <%= yield %>
   </body>
 </html>

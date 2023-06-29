@@ -1,17 +1,18 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  title: MyString
-  description: MyText
-  price: 9.99
-  photo1: MyString
-  photo2: MyString
-  photo3: MyString
+  title: "Samsung A53 5G 128gb"
+  description: "El Samsung Galaxy A53 5G es el sucesor del A52 con una pantalla Super AMOLED de 6.5 pulgadas a resolución FHD+ y tasa de refresco de 120Hz, protegida por vidrio Gorilla Glass 5. Por dentro, encontramos un procesador octa-core con hasta 8GB de RAM y 128GB o 256GB de almacenamiento interno expandible. La cámara trasera es cuádruple, con lentes de 64MP con OIS, ultrawide de 12MP, macro de 5MP y profundidad de 5MP, siendo la cámara selfie de 32MP. El Galaxy A53 5G está alimentado por una batería de 5000 mAh de carga rápida, tiene parlantes stereo, lector de huellas bajo la pantalla, resistencia al agua IP67 y corre Android 12."
+  price: 336.99
+  photo1: "https://storage.comprasmartphone.com/smartphones/samsung-galaxy-a53-5g.png"
+  photo2: "https://personalpy.vteximg.com.br/arquivos/ids/156279-1000-1000/Galaxy_A53_main.png?v=637877221253730000"
+  photo3: "https://www.pikshop.com.mx/media/catalog/product/cache/5925ca4b7756e8b08545fb35cc55e00b/s/a/samsung_galaxy_a53_blue_front_1.png"
 
 two:
-  title: MyString
-  description: MyText
-  price: 9.99
-  photo1: MyString
-  photo2: MyString
-  photo3: MyString
+  title: "iPhone 12 Pro Max 128gb"
+  description: "El iPhone 12 Pro Max es la variante con mayor tamaño de pantalla de la serie iPhone 12. Con una pantalla OLED de 6.7 pulgadas; cuenta con un procesador Apple A14 Bionic con opciones de 128GB, 256GB, o 512GB de almacenamiento, cámara cuádruple con tres lentes de 12 megapixels, cámara selfie de 12 megapixels, estabilización de imagen, zoom óptico 5x, parlantes stereo, carga rápida e inalámbrica, resistencia al polvo y agua con certificación iP68, y corre iOS 14."
+  price: 1099.99
+  photo1: "https://caseface.ie/wp-content/uploads/iPhone-12-Pro-Max-Case.png"
+  photo2: "https://webonline.macstore.mx/img/sku/iphone-ofertas.png"
+  photo3: "https://cdnx.jumpseller.com/tiquemobile/image/28976764/iPhone_13_Pro_Max_Verde.png?1667232013"
+

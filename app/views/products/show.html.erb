@@ -1,2 +1,6 @@
-<h1>Products#show</h1>
-<p>Find me in app/views/products/show.html.erb</p>
+<h1> <%= @product.title%> </h1>
+<h4> <%= @product.description%> </h4>
+<p>Precio: $<%= @product.price%> </p>
+<img src="<%= @product.photo1%>" alt="<%= @product.title%>">
+<img src="<%= @product.photo2%>" alt="<%= @product.title%>">
+<img src="<%= @product.photo3%>" alt="<%= @product.title%>">
