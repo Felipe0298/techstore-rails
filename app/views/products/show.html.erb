@@ -1,6 +1,10 @@
-<h1> <%= @product.title%> </h1>
-<h4> <%= @product.description%> </h4>
-<p>Precio: $<%= @product.price%> </p>
-<img src="<%= @product.photo1%>" alt="<%= @product.title%>">
-<img src="<%= @product.photo2%>" alt="<%= @product.title%>">
-<img src="<%= @product.photo3%>" alt="<%= @product.title%>">
+<!-- views/products/show.html.erb -->
+<%= button_to "Agregar al carrito", add_to_cart_path(product_id: @product.id), method: :post %>
+
+<h1><%= @product.title %></h1>
+<h4><%= @product.description %></h4>
+<p>Precio: $<%= @product.price %></p>
+<img src="<%= @product.photo1 %>" alt="<%= @product.title %>">
+<img src="<%= @product.photo2 %>" alt="<%= @product.title %>">
+<img src="<%= @product.photo3 %>" alt="<%= @product.title %>">
+

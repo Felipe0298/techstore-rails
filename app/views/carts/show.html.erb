@@ -1,0 +1,15 @@
+<h1>Carrito de compras</h1>
+
+<% if @cart_products.empty? %>
+  <p>Tu carrito está vacío.</p>
+<% else %>
+  <ul>
+    <% @cart_products.each do |product_id| %>
+      <% product = Product.find(product_id) %>
+      <li>
+        <%= product.title %> - Precio: $<%= product.price %>
+        <%= button_to "Eliminar", remove_from_cart_path(product_id), method: :delete, data: { confirm: '¿Estás seguro de eliminar este producto del carrito?' } %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
