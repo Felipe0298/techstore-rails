@@ -16,3 +16,66 @@ two:
   photo2: "https://webonline.macstore.mx/img/sku/iphone-ofertas.png"
   photo3: "https://cdnx.jumpseller.com/tiquemobile/image/28976764/iPhone_13_Pro_Max_Verde.png?1667232013"
 
+three:
+  title: "Samsung M32 128gb"
+  description: "El Samsung Galaxy M32 es un smartphone Android con una pantalla Super AMOLED de 6.4 pulgadas con tasa de refresco de 90Hz. Por dentro, encontramos un procesador Helio G80 de MediaTek, acompañado de hasta 6GB de memoria RAM y hasta 128GB de almacenamiento interno. La cámara cuádruple del Galaxy M32 cuenta con lente principal de 64MP, ultrawide de 8MP y secundarios de 2MP, y la cámara selfie es de 20MP. Con una batería de 6000 mAh de carga rápida, el Galaxy M32 completa sus características con un lector de huellas sobre el botón de encendido, sonido Dolby Atmos, y corre Android 11 con One UI 3.1."
+  price: 163
+  photo1: "http://cdn.shopify.com/s/files/1/0210/9099/2177/products/SAMSUNGM32DE1286_1200x1200.png?v=1666650250"
+  photo2: "https://res.cloudinary.com/fivegstore/image/upload/v1631011659/blob_nmq5xh.png"
+  photo3: "https://storage.comprasmartphone.com/smartphones/samsung-galaxy-m22.png"
+
+four:
+  title: "Samsung S22+ 256gb"
+  description: "El Samsung Galaxy S22+ es la variante más grande del S22. Con una pantalla AMOLED de 6.6 pulgadas a resolución FHD+ y tasa de refresco de 120Hz, el Galaxy S22+ está potenciado por un procesador Snapdragon 8 Gen 1 o un Exynos 2200 dependiendo de la región, con 8GB de RAM y hasta 256GB de almacenamiento interno no expandible. La cámara principal del Galaxy S22+ es de 50MP y es complementada por una ultrawide de 12MP y una telefoto de 10MP con OIS, zoom 3x y IA. La cámara selfie en tanto es de 10MP. El Galaxy S22+ cuenta con una batería de 4500 mAh de carga rápida y completa sus características con parlantes stereo, certificación IP68 de resistencia al polvo y agua, lector de huellas bajo la pantalla y Android 12 con la interfaz One UI 4.1."
+  price: 849.99
+  photo1: "https://s7d1.scene7.com/is/image/dish/GS22_PhantomBlack_phonewall?$ProductBase$"
+  photo2: "https://storage.comprasmartphone.com/smartphones/samsung-galaxy-s22.png"
+  photo3: "https://fscl01.fonpit.de/devices/22/2222.png"
+
+five:
+  title: "iPhone 13 256gb"
+  description: "El Apple iPhone 13 representa una actualización menor del iPhone 12. Conservando la pantalla OLED de 6.1 pulgadas, el iPhone 13 cuenta con un procesador Apple A15 Bionic, con opciones de almacenamiento de 128GB. 256GB. o 512GB. La cámara principal del iPhone 13 es dual, con lentes wide y ultrawide de 12MP con IBIS y zoom óptico 2x, y la cámara frontal es de 12MP. El iPhone 13 tiene parlantes stereo, soporta carga rápida tanto por cable como inalámbrica, es resistente al polvo y agua, y soporta redes 5G."
+  price: 799.99
+  photo1: "https://www.ivcel.com/wp-content/uploads/2021/09/iPhone_13_Midnight_PDP_Image_Position-1A__en-US.png"
+  photo2: "https://cdnx.jumpseller.com/tiquemobile/image/28152274/iphone_13_rojo.png?1664920101"
+  photo3: "https://www.sunrise.ch/var/commerce/products/web/Default/en/apple_iphone_13_parent/variants/000000000000021762/picture.1631841628085.transform/original/21762_21767_21772217472175221757productimage1000x1000png.png"
+
+six:
+  title: "iPhone 13 mini 128gb"
+  description: "El Apple iPhone 13 mini representa una mínima iteración con respecto al iPhone 12 mini del año pasado. Con la misma pantalla OLED Super Retina XDR de 5.4 pulgadas, el notch que aloja Face ID se reduce un 20 por ciento. Por dentro, encontramos al nuevo Apple A15 Bionic con opciones de 128GB, 256GB, o 512GB de almacenamiento. El iPhone 13 mini tiene una cámara dual con dos sensores de 12MP, wide y ultrawide respectivamente, con estabilización IBIS, mientras que la cámara selfie también es dual, con un sensor de 12MP y un sensor TrueDepth. El iPhone 13 mini completa sus características con parlantes stereo, batería de carga rápida con hasta 17 horas de autonomía, rating IP68 de resistencia al polvo y agua, y conectividad 5G con más bandas."
+  price: 599.99
+  photo1: "https://www.yaphone.com/4850-thickbox_default/apple-iphone-13-mini.jpg"
+  photo2: "https://store.datatrade.sm/wp-content/uploads/2022/03/iphone-13-mini-family-select-2.png"
+  photo3: "https://cdn.shopify.com/s/files/1/0301/4305/3923/products/iphone-case-iphone-13-mini-case-on-phone-61f9bfb5f0e42_1024x1024.png?v=1643757847"
+
+seven:
+  title: "Samsung ZFold4 256GB 5G"
+  description: "El Samsung Galaxy Z Fold 4 es la cuarta generación del primer foldable smartphone de Samsung. El Galaxy Z Fold4 cuenta con una pantalla interna AMOLED de 7.6 pulgadas a resolución FHD+ y tasa de refresco de 120Hz, que esconde una cámara selfie de 4MP. Al estar cerrado, el Galaxy Z Fold 4 cuenta con una pantalla AMOLED de 6.2 pulgadas, también de 120Hz de refresco. Por dentro encontramos un procesador Snapdragon 8+ Gen 1 acompañado de 12GB de RAM con hasta 1TB de almacenamiento interno, y una batería de 4400 mAh con carga rápida de 25W por cable y carga inalámbrica de 15W. La cámara posterior del Galaxy Z Fold4 es triple, con un sensor principal de 50MP, una cámara ultrawide de 12MP y una cámara telefoto de 10MP y la cámara selfie de la pantalla cover es de 10MP. El Galaxy Z Fold4 completa sus características con parlantes stereo, lector de huellas lateral, resistencia al agua y polvo, soporte para stylus S Pen, Samsung DeX, y corre Android 12L."
+  price: 1699.99
+  photo1: "https://storage.comprasmartphone.com/smartphones/samsung-galaxy-z-fold3.png"
+  photo2: "https://www.cavaraty.com/web/image/product.template/113073/image_1024?unique=6f6f4c9"
+  photo3: "https://www.yaphone.com/5226-thickbox_default/samsung-galaxy-z-fold4-5g.jpg"
+
+eight:
+  title: "Samsung S21 5G 128gb - Renovado"
+  description: "El Samsung Galaxy S21 marca la llegada de la nueva generación de flagships de Samsung para el 2021. El Galaxy S21 cuenta con una pantalla Dynamic AMOLED de 6.2 pulgadas a resolución Full HD+, con tasa de refresco de 120 Hz y protegida por Gorilla Glass Victus. Por dentro, encontramos un procesador Exynos 2100 - en su versión internacional - o Snapdragon 888 para la versión USA, China y Corea. En ambos casos, la memoria RAM es de 8GB con 128GB o 256GB de almacenamiento interno pero sin posibilidad de expansión. En el posterior del Galaxy S21 observamos una cámara triple con lente wide de 12MP, lente telefoto de 64MP y lente ultrawide de 12MP y al frente la cámara es de 10MP, capaz de capturar video 4K. El resto de las características del Galaxy S21 incluyen parlantes stereo con sonido de alta fidelidad de AKG, batería de 4000 mAh de carga rápida, soportando también carga inalámbrica y reversible, lector de huellas integrado en la pantalla, resistencia al polvo y agua y corre Android 11 con la interfaz One UI."
+  price: 263
+  photo1: "https://cdnx.jumpseller.com/tiquemobile/image/29739110/S21_5G.png?1669389080"
+  photo2: "https://storage.comprasmartphone.com/smartphones/samsung-galaxy-s21.png"
+  photo3: "https://www.dimprice.com/image/cache/png/samsung-galaxy-s21+/silver/samsung-galaxy-s21+-01-1000x1000.png"
+
+nine:
+  title: "Ipad 10va generacion 64gb"
+  description: "El Apple iPad (2022), también conocido como Apple iPad 10th gen, llega con importantes upgrades y cuenta con una pantalla de 10.9 pulgadas del tipo Liquid Retina. Potenciado por un procesador A14 Bionic de Apple, el nuevo iPad está disponible en opciones de 64GB o 256GB de almacenamiento. Una cámara ultrawide de 12MP se ubica al frente, mientras que una cámara de 12MP regular se ubica en la parte posterior. El iPad 2022 cuenta con parlantes stereo, lector de huellas lateral, soporte para el Apple Pencil en su primera generación, puerto USB-C y está disponible en versiones solo WiFi o LTE."
+  price: 450.99
+  photo1: "https://target.scene7.com/is/image/Target/GUEST_430900c7-e560-448c-bc9c-2b605b9f72a1"
+  photo2: "https://cdn.shopify.com/s/files/1/0559/8455/4136/products/cell_purp2_1200x.png?v=1647519859"
+  photo3: "https://masterlabrepair.it/wp-content/uploads/2022/11/ipad-10-generazione-4-colori.png"
+
+ten:
+  title: "iPhone 11 128gb"
+  description: "El iPhone 11 llega con una pantalla de 6.1 pulgadas con resolución Liquid Retina y potenciado por un procesador Apple A13 Bionic con 128 GB de almacenamiento interno. La cámara posterior ahora es dual, con un lente regular de 12 MP y otro gran angular de 12 MP, mientras que su cámara frontal es de 12 MP. Cuenta con una batería de 3110 mAh con carga rápida, parlantes stereo con sonido Dolby Atmos, carga inalámbrica y utiliza reconocimiento de rostro Face ID para seguridad."
+  price: 315.09
+  photo1: "https://cdnx.jumpseller.com/tiquemobile/image/28177958/iphone_11_blanco.png?1664981359"
+  photo2: "http://cdn.shopify.com/s/files/1/0245/0010/9358/products/iphone-11-pro-recondicionado_1200x1200.png?v=1627910804"
+  photo3: "http://cdn.shopify.com/s/files/1/0566/3866/8939/products/IPHONE-11-64-BLANCO_1216e255-8a9d-42d4-8872-ef77a9f653b5_1200x1200.png?v=1651607969"
