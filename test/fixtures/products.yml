@@ -7,6 +7,8 @@ one:
   photo1: "https://storage.comprasmartphone.com/smartphones/samsung-galaxy-a53-5g.png"
   photo2: "https://personalpy.vteximg.com.br/arquivos/ids/156279-1000-1000/Galaxy_A53_main.png?v=637877221253730000"
   photo3: "https://www.pikshop.com.mx/media/catalog/product/cache/5925ca4b7756e8b08545fb35cc55e00b/s/a/samsung_galaxy_a53_blue_front_1.png"
+  category: "Samsung"
+  category: "Samsung"
 
 two:
   title: "iPhone 12 Pro Max 128gb"
@@ -15,6 +17,7 @@ two:
   photo1: "https://caseface.ie/wp-content/uploads/iPhone-12-Pro-Max-Case.png"
   photo2: "https://webonline.macstore.mx/img/sku/iphone-ofertas.png"
   photo3: "https://cdnx.jumpseller.com/tiquemobile/image/28976764/iPhone_13_Pro_Max_Verde.png?1667232013"
+  category: "Apple"
 
 three:
   title: "Samsung M32 128gb"
@@ -23,6 +26,7 @@ three:
   photo1: "http://cdn.shopify.com/s/files/1/0210/9099/2177/products/SAMSUNGM32DE1286_1200x1200.png?v=1666650250"
   photo2: "https://res.cloudinary.com/fivegstore/image/upload/v1631011659/blob_nmq5xh.png"
   photo3: "https://storage.comprasmartphone.com/smartphones/samsung-galaxy-m22.png"
+  category: "Samsung"
 
 four:
   title: "Samsung S22+ 256gb"
@@ -31,6 +35,7 @@ four:
   photo1: "https://s7d1.scene7.com/is/image/dish/GS22_PhantomBlack_phonewall?$ProductBase$"
   photo2: "https://storage.comprasmartphone.com/smartphones/samsung-galaxy-s22.png"
   photo3: "https://fscl01.fonpit.de/devices/22/2222.png"
+  category: "Samsung"
 
 five:
   title: "iPhone 13 256gb"
@@ -39,6 +44,7 @@ five:
   photo1: "https://www.ivcel.com/wp-content/uploads/2021/09/iPhone_13_Midnight_PDP_Image_Position-1A__en-US.png"
   photo2: "https://cdnx.jumpseller.com/tiquemobile/image/28152274/iphone_13_rojo.png?1664920101"
   photo3: "https://www.sunrise.ch/var/commerce/products/web/Default/en/apple_iphone_13_parent/variants/000000000000021762/picture.1631841628085.transform/original/21762_21767_21772217472175221757productimage1000x1000png.png"
+  category: "Apple"
 
 six:
   title: "iPhone 13 mini 128gb"
@@ -47,6 +53,7 @@ six:
   photo1: "https://www.yaphone.com/4850-thickbox_default/apple-iphone-13-mini.jpg"
   photo2: "https://store.datatrade.sm/wp-content/uploads/2022/03/iphone-13-mini-family-select-2.png"
   photo3: "https://cdn.shopify.com/s/files/1/0301/4305/3923/products/iphone-case-iphone-13-mini-case-on-phone-61f9bfb5f0e42_1024x1024.png?v=1643757847"
+  category: "Apple"
 
 seven:
   title: "Samsung ZFold4 256GB 5G"
@@ -55,6 +62,7 @@ seven:
   photo1: "https://storage.comprasmartphone.com/smartphones/samsung-galaxy-z-fold3.png"
   photo2: "https://www.cavaraty.com/web/image/product.template/113073/image_1024?unique=6f6f4c9"
   photo3: "https://www.yaphone.com/5226-thickbox_default/samsung-galaxy-z-fold4-5g.jpg"
+  category: "Samsung"
 
 eight:
   title: "Samsung S21 5G 128gb - Renovado"
@@ -63,6 +71,7 @@ eight:
   photo1: "https://cdnx.jumpseller.com/tiquemobile/image/29739110/S21_5G.png?1669389080"
   photo2: "https://storage.comprasmartphone.com/smartphones/samsung-galaxy-s21.png"
   photo3: "https://www.dimprice.com/image/cache/png/samsung-galaxy-s21+/silver/samsung-galaxy-s21+-01-1000x1000.png"
+  category: "Samsung"
 
 nine:
   title: "Ipad 10va generacion 64gb"
@@ -71,6 +80,7 @@ nine:
   photo1: "https://target.scene7.com/is/image/Target/GUEST_430900c7-e560-448c-bc9c-2b605b9f72a1"
   photo2: "https://cdn.shopify.com/s/files/1/0559/8455/4136/products/cell_purp2_1200x.png?v=1647519859"
   photo3: "https://masterlabrepair.it/wp-content/uploads/2022/11/ipad-10-generazione-4-colori.png"
+  category: "Apple"
 
 ten:
   title: "iPhone 11 128gb"
@@ -79,3 +89,4 @@ ten:
   photo1: "https://cdnx.jumpseller.com/tiquemobile/image/28177958/iphone_11_blanco.png?1664981359"
   photo2: "http://cdn.shopify.com/s/files/1/0245/0010/9358/products/iphone-11-pro-recondicionado_1200x1200.png?v=1627910804"
   photo3: "http://cdn.shopify.com/s/files/1/0566/3866/8939/products/IPHONE-11-64-BLANCO_1216e255-8a9d-42d4-8872-ef77a9f653b5_1200x1200.png?v=1651607969"
+  category: "Apple"
