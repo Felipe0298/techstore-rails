@@ -4,12 +4,17 @@
   <p>Tu carrito está vacío.</p>
 <% else %>
   <ul>
+    <% total_price = 0 %> 
     <% @cart_products.each do |product_id| %>
       <% product = Product.find(product_id) %>
       <li>
         <%= product.title %> - Precio: $<%= product.price %>
+        <% total_price += product.price %>
         <%= button_to "Eliminar", remove_from_cart_path(product_id), method: :delete, data: { confirm: '¿Estás seguro de eliminar este producto del carrito?' } %>
       </li>
     <% end %>
   </ul>
+  <p>Total: $<%= total_price %></p> 
+
+  <%= button_to "Comprar", buy_cart_path, method: :post, data: { confirm: '¿Estás seguro de realizar la compra?' } %>
 <% end %>

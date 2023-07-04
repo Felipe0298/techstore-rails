@@ -17,6 +17,15 @@
       <%= link_to "Volver a inicio", products_path %>
     <% end %>
     
+    <%= link_to "Mostrar todo", products_path %>
+    
+    <% if @categories.present? %>
+      <% @categories.each do |category| %>
+        <%= link_to category, products_path(category: category) %>
+      <% end %>
+    <% end %>
+
+
     <%= yield %>
   </body>
 </html>

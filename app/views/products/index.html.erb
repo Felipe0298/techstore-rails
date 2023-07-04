@@ -1,6 +1,6 @@
-<%= link_to "Mostrar todo", products_path %>
-<%  @categories.each do |category| %>
-    <%= link_to category, products_path(category: category) %>
+
+<% unless current_page?(cart_path) %>
+    <%= link_to "Ir al carrito", cart_path %>
 <% end %>
 
 <% @products.each do |product|%>

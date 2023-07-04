@@ -7,6 +7,9 @@ Rails.application.routes.draw do
   post 'cart/add_to_cart', to: 'carts#add_to_cart', as: 'add_to_cart'
   delete 'cart/remove_from_cart/:product_id', to: 'carts#remove_from_cart', as: 'remove_from_cart'
 
+  post '/cart/buy', to: 'carts#buy', as: 'buy_cart'
+
+
   # Defines the root path route ("/")
   root "products#index"
 end

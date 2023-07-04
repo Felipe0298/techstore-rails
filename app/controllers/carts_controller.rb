@@ -16,5 +16,9 @@ class CartsController < ApplicationController
     session[:cart].delete(product_id) if session[:cart].present?
     redirect_to cart_path, notice: 'Producto eliminado del carrito exitosamente.'
   end
-  
+
+  def buy
+    session[:cart] = [] # Eliminar todos los productos del carrito al realizar la compra
+    redirect_to products_path, notice: 'Compra exitosa. Gracias por tu compra.'
+  end
 end
