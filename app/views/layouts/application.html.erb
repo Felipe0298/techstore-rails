@@ -25,6 +25,17 @@
       <% end %>
     <% end %>
 
+  <%= link_to cart_path do %>
+    <span class="cart-icon">&#128722;</span>
+      <% if @cart_products_count > 0 %>
+      <span class="cart-count"><%= @cart_products_count %></span>
+    <% end %>
+  <% end %>
+
+
+
+
+
 
     <%= yield %>
   </body>
