@@ -19,6 +19,6 @@ class CartsController < ApplicationController
 
   def buy
     session[:cart] = [] # Eliminar todos los productos del carrito al realizar la compra
-    redirect_to products_path, notice: 'Compra exitosa. Gracias por tu compra.'
+    redirect_to new_order_path
   end
 end

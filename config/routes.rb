@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'orders/new'
+  get 'orders/create'
   # Define your resources routes for products
   resources :products, only: [:index, :show]
 
@@ -8,6 +10,10 @@ Rails.application.routes.draw do
   delete 'cart/remove_from_cart/:product_id', to: 'carts#remove_from_cart', as: 'remove_from_cart'
 
   post '/cart/buy', to: 'carts#buy', as: 'buy_cart'
+
+  # Define the routes for orders
+  resources :orders, only: [:new, :create]
+
 
 
   # Defines the root path route ("/")

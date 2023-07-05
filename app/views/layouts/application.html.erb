@@ -11,7 +11,10 @@
   </head>
 
   <body>
-    <h1>Techstore</h1>
+
+    <div>
+      <%= link_to "Techstore", products_path %>
+    </div>
     
     <% unless current_page?(products_path) %>
       <%= link_to "Volver a inicio", products_path %>
