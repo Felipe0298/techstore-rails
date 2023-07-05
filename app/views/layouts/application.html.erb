@@ -18,30 +18,31 @@
     </div>
 
     <div class="my-5 flex flex-row flex-wrap justify-evenly">
-  <%= link_to "Inicio", products_path, class: "text-4xl" %>
+      <%= link_to "Inicio", products_path, class: "text-4xl hover:text-5xl transition-all duration-400" %>
 
-  <% if @categories.present? %>
-    <% @categories.each do |category| %>
-      <%= link_to "#{category}", products_path(category: category), class: "text-4xl" %>
-    <% end %>
-  <% end %>
-
-  <%= link_to cart_path do %>
-    <span class="cart-icon text-4xl">&#128722;</span>
-    <% if @cart_products_count > 0 %>
-      <span class="cart-count text-4xl"><%= @cart_products_count %></span>
-    <% end %>
-  <% end %>
-</div>
-
-    
-    <% if current_page?(products_path) %>
-      <% if @select_category.present? %>
-        <h1>Todos nuestros productos <%= @select_category %></h1>
-      <% else %>
-        <h1>Todos nuestros productos</h1>
+      <% if @categories.present? %>
+        <% @categories.each do |category| %>
+          <%= link_to "#{category}", products_path(category: category), class: "text-4xl hover:text-5xl transition-all duration-400" %>
+        <% end %>
       <% end %>
-    <% end %>
+
+      <%= link_to cart_path do %>
+        <span class="cart-icon text-4xl hover:text-5xl transition-all duration-400">&#128722;</span>
+        <% if @cart_products_count > 0 %>
+          <span class="cart-count text-4xl hover:text-5xl transition-all duration-400"><%= @cart_products_count %></span>
+        <% end %>
+      <% end %>
+    </div>
+
+    <div>
+      <% if current_page?(products_path) %>
+        <% if @select_category.present? %>
+          <h1 class="text-3xl flex justify-center items-center mt-10">Todos nuestros productos <%= @select_category %></h1>
+        <% else %>
+          <h1 class="text-3xl flex justify-center items-center mt-10">Todos nuestros productos</h1>
+        <% end %>
+      <% end %>
+    </div>
     
     <div>
       <% flash.each do |type, message| %>
