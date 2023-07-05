@@ -13,13 +13,27 @@
 
   <body>
 
-    <div>
-      <%= link_to "Techstore", products_path %>
+    <div class="flex justify-center items-center">
+      <%= link_to image_tag("techstore.png", alt: "Logo Techstore"), products_path, class: "w-100 h-100" %>
     </div>
-    
-    <% unless current_page?(products_path) %>
-      <%= link_to "Volver a inicio", products_path %>
+
+    <div class="my-5 flex flex-row flex-wrap justify-evenly">
+  <%= link_to "Inicio", products_path, class: "text-4xl" %>
+
+  <% if @categories.present? %>
+    <% @categories.each do |category| %>
+      <%= link_to "#{category}", products_path(category: category), class: "text-4xl" %>
     <% end %>
+  <% end %>
+
+  <%= link_to cart_path do %>
+    <span class="cart-icon text-4xl">&#128722;</span>
+    <% if @cart_products_count > 0 %>
+      <span class="cart-count text-4xl"><%= @cart_products_count %></span>
+    <% end %>
+  <% end %>
+</div>
+
     
     <% if current_page?(products_path) %>
       <% if @select_category.present? %>
@@ -29,21 +43,6 @@
       <% end %>
     <% end %>
     
-    <%= link_to "Mostrar todo", products_path %>
-    
-    <% if @categories.present? %>
-      <% @categories.each do |category| %>
-        <%= link_to "#{category}", products_path(category: category) %>
-      <% end %>
-    <% end %>
-
-    <%= link_to cart_path do %>
-      <span class="cart-icon">&#128722;</span>
-      <% if @cart_products_count > 0 %>
-        <span class="cart-count"><%= @cart_products_count %></span>
-      <% end %>
-    <% end %>
-  
     <div>
       <% flash.each do |type, message| %>
         <div>
