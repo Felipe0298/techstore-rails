@@ -1,20 +1,33 @@
-<h1>Carrito de compras</h1>
-
 <% if @cart_products.empty? %>
-  <p>Tu carrito está vacío.</p>
+  <p class="text-center">Tu carrito está vacío.</p>
 <% else %>
-  <ul>
-    <% total_price = 0 %> 
-    <% @cart_products.each do |product_id| %>
-      <% product = Product.find(product_id) %>
-      <li>
-        <%= product.title %> - Precio: $<%= product.price %>
+  <table class="w-full border-collapse mb-4 mt-0">
+    <thead>
+      <tr>
+        <th class="px-4 py-2 bg-gray-200 font-bold">Producto</th>
+        <th class="px-4 py-2 bg-gray-200 font-bold">Precio</th>
+        <th class="px-4 py-2 bg-gray-200 font-bold"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <% total_price = 0 %>
+      <% @cart_products.each_with_index do |product_id, index| %>
+        <% product = Product.find(product_id) %>
+        <tr class="<%= index % 2 == 0 ? 'bg-gray-100' : '' %>">
+          <td class="px-4 py-2 text-center"><%= product.title %></td>
+          <td class="px-4 py-2 text-center">$<%= product.price %></td>
+          <td class="px-4 py-2 text-center">
+            <%= button_to "Eliminar", remove_from_cart_path(product_id), method: :delete, data: { confirm: '¿Estás seguro de eliminar este producto del carrito?' }, class: 'bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded' %>
+          </td>
+        </tr>
         <% total_price += product.price %>
-        <%= button_to "Eliminar", remove_from_cart_path(product_id), method: :delete, data: { confirm: '¿Estás seguro de eliminar este producto del carrito?' } %>
-      </li>
-    <% end %>
-  </ul>
-  <p>Total: $<%= total_price %></p> 
+      <% end %>
+    </tbody>
+  </table>
 
-  <%= button_to "Comprar", buy_cart_path, method: :post, data: { confirm: '¿Estás seguro de realizar la compra?' } %>
+  <p class="font-bold mt-4 text-center">Total: $<%= total_price %></p>
+
+  <div class="flex justify-center">
+    <%= button_to "Comprar", buy_cart_path, method: :post, data: { confirm: '¿Estás seguro de realizar la compra?' }, class: 'bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded' %>
+  </div>
 <% end %>

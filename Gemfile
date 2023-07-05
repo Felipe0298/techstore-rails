@@ -44,6 +44,9 @@ gem "bootsnap", require: false
 
 gem 'font-awesome-sass'
 
+gem 'swiper-rails'
+
+
 
 # Use Sass to process CSS
 # gem "sassc-rails"

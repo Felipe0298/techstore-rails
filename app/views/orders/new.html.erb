@@ -1,14 +1,24 @@
-<h1>Nueva Orden</h1>
+<div class="flex flex-col items-center justify-center mt-20">
+  <h1 class="text-2xl font-bold mb-4">Nueva Orden</h1>
 
-<%= form_with(model: @order, url: orders_path) do |form| %>
-  <%= form.label :full_name, 'Nombre completo' %>
-  <%= form.text_field :full_name %>
+  <%= form_with(model: @order, url: orders_path, class: 'w-1/3') do |form| %>
+    <div class="mb-4">
+      <%= form.label :full_name, 'Nombre completo', class: 'font-bold' %>
+      <%= form.text_field :full_name, class: 'w-full border rounded py-2 px-3' %>
+    </div>
 
-  <%= form.label :phone_number, 'Número de celular' %>
-  <%= form.text_field :phone_number %>
+    <div class="mb-4">
+      <%= form.label :phone_number, 'Número de celular', class: 'font-bold' %>
+      <%= form.text_field :phone_number, class: 'w-full border rounded py-2 px-3' %>
+    </div>
 
-  <%= form.label :email, 'Correo electrónico' %>
-  <%= form.email_field :email %>
+    <div class="mb-4">
+      <%= form.label :email, 'Correo electrónico', class: 'font-bold' %>
+      <%= form.email_field :email, class: 'w-full border rounded py-2 px-3' %>
+    </div>
 
-  <%= form.submit 'Realizar compra' %>
-<% end %>
+    <div class="flex justify-center">
+      <%= form.submit 'Realizar compra', class: 'bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded' %>
+    </div>
+  <% end %>
+</div>

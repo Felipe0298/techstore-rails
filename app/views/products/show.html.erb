@@ -1,9 +1,42 @@
-<%= button_to "Agregar al carrito", add_to_cart_path(product_id: @product.id), method: :post %>
+<div class="flex flex-wrap">
+  <div class="w-full md:w-1/2">
+    <div class="carousel">
+      <div class="carousel-slide">
+        <% if @product.photo1.present? %>
+          <img src="<%= @product.photo1 %>" alt="<%= @product.title %>" class="w-full">
+        <% end %>
+        <% if @product.photo2.present? %>
+          <img src="<%= @product.photo2 %>" alt="<%= @product.title %>" class="w-full">
+        <% end %>
+        <% if @product.photo3.present? %>
+          <img src="<%= @product.photo3 %>" alt="<%= @product.title %>" class="w-full">
+        <% end %>
+      </div>
+      <div class="carousel-indicators">
+        <% if @product.photo1.present? %>
+          <span class="carousel-indicator"></span>
+        <% end %>
+        <% if @product.photo2.present? %>
+          <span class="carousel-indicator"></span>
+        <% end %>
+        <% if @product.photo3.present? %>
+          <span class="carousel-indicator"></span>
+        <% end %>
+      </div>
+    </div>
+  </div>
 
-<h1><%= @product.title %></h1>
-<h4><%= @product.description %></h4>
-<p>Precio: $<%= @product.price %></p>
-<img src="<%= @product.photo1 %>" alt="<%= @product.title %>">
-<img src="<%= @product.photo2 %>" alt="<%= @product.title %>">
-<img src="<%= @product.photo3 %>" alt="<%= @product.title %>">
+  <div class="w-full md:w-1/2 flex items-center justify-center">
+  <div class="card border rounded w-3/4 shadow-lg">
+    <div class="card-body p-4">
+      <h1 class="card-title font-bold text-2xl text-center my-3"><%= @product.title %></h1>
+      <h4 class="text-lg text-justify"><%= @product.description %></h4>
+      <p class="text-xl mb-2 text-center mt-2"><strong>Precio: $<%= @product.price %></strong></p>
+      <div class="flex items-center justify-center mt-3">
+        <%= button_to "Agregar al carrito", add_to_cart_path(product_id: @product.id), method: :post, class: "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" %>
+      </div>
+    </div>
+  </div>
+</div>
 
+</div>
