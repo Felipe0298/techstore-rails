@@ -17,26 +17,37 @@
       <%= link_to "Volver a inicio", products_path %>
     <% end %>
     
+    <% if current_page?(products_path) %>
+      <% if @select_category.present? %>
+        <h1>Todos nuestros productos <%= @select_category %></h1>
+      <% else %>
+        <h1>Todos nuestros productos</h1>
+      <% end %>
+    <% end %>
+    
     <%= link_to "Mostrar todo", products_path %>
     
     <% if @categories.present? %>
       <% @categories.each do |category| %>
-        <%= link_to category, products_path(category: category) %>
+        <%= link_to "#{category}", products_path(category: category) %>
       <% end %>
     <% end %>
 
-  <%= link_to cart_path do %>
-    <span class="cart-icon">&#128722;</span>
+    <%= link_to cart_path do %>
+      <span class="cart-icon">&#128722;</span>
       <% if @cart_products_count > 0 %>
-      <span class="cart-count"><%= @cart_products_count %></span>
+        <span class="cart-count"><%= @cart_products_count %></span>
+      <% end %>
     <% end %>
-  <% end %>
-
-
-
-
-
-
+  
+    <div>
+      <% flash.each do |type, message| %>
+        <div>
+          <%= message %>
+        </div>
+      <% end %>
+    </div>
+  
     <%= yield %>
   </body>
 </html>
