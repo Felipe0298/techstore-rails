@@ -90,3 +90,30 @@ ten:
   photo2: "http://cdn.shopify.com/s/files/1/0245/0010/9358/products/iphone-11-pro-recondicionado_1200x1200.png?v=1627910804"
   photo3: "http://cdn.shopify.com/s/files/1/0566/3866/8939/products/IPHONE-11-64-BLANCO_1216e255-8a9d-42d4-8872-ef77a9f653b5_1200x1200.png?v=1651607969"
   category: "Apple"
+
+eleven:
+  title: "Moto G20"
+  description: "El nuevo Moto G20 llega al catálogo de Motorola..."
+  price: 125.77
+  photo1: "https://exitocol.vtexassets.com/arquivos/ids/18767451/Moto-G20-128Gb-Azul-MOTOROLA-SINREF-3093726_a.jpg?v=638216765906670000"
+  photo2: "https://i.blogs.es/a57e3d/motorola-mto-g20-5/840_560.jpg"
+  photo3: "https://http2.mlstatic.com/D_NQ_NP_630396-MLA48317863522_112021-O.jpg"
+  category: "Motorola"
+
+twelve:
+  title: "Moto G40 Fusion"
+  description: "El Moto G40 Fusion cuenta con una pantalla IPS LCD..."
+  price: 225.77
+  photo1: "https://co.celulares.com/fotos/motorola-moto-g40-fusion-91129-g-alt.jpg"
+  photo2: "https://depor.com/resizer/S652s_9GI096ngW9Mu9rsqpLChk=/1200x1200/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/73Z7OXE4JRE7NGEKKCPUPMDJMY.jpg"
+  photo3: "https://co.celulares.com/fotos/motorola-moto-g40-fusion-91130-g-alt.jpg"
+  category: "Motorola"
+
+thirteen:
+  title: "Moto G60"
+  description: "El Moto G60 cuenta con una pantalla IPS LCD..."
+  price: 325.77
+  photo1: "https://exitocol.vtexassets.com/arquivos/ids/19050564/Celular-MOTOROLA-G60-Plata-3157622_a.jpg?v=638241874473070000"
+  photo2: "https://i0.wp.com/conectamos.shop/wp-content/uploads/2022/03/25640828_5.jpg?fit=1500%2C1500&ssl=1"
+  photo3: "https://microcell.co/29267-large_default/celular-smartphone-moto-g60-gris-678-pulgadas-4gb-128gb.jpg"
+  category: "Motorola"

@@ -14,3 +14,13 @@
  *= require_self
  */
  @import "carousel";
+
+ body {
+    background-image: url("https://img.freepik.com/free-vector/white-abstract-background_23-2148806276.jpg");
+    background-size: cover;
+    background-position: center;
+    /* Otros estilos opcionales */
+    background-repeat: no-repeat;
+    /* Otros estilos opcionales */
+  }
+  
